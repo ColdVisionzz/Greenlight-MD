@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "greenlight"
+version = "0.1.0"
+description = "Retro-inspired Markdown editor with Obsidian-style links"
+authors = [{ name = "Cold Visions" }]
+dependencies = []
+
+[tool.setuptools]
+packages = ["greenlight"]
+
+[project.scripts]
+greenlight = "greenlight.main:main_entry"
